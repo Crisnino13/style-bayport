@@ -72,6 +72,10 @@ p{
     line-height: 1.3rem;
 }
 
+.small{
+    font-size: 14px;
+}
+
 .legal{
     font-size: 12px;
     line-height: 1rem;
@@ -89,11 +93,28 @@ a {
     color: #0053BA;
 }
 
+.btn{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 16px;
+    
+}
+
 .btn-primary{
     background-color: #00113D;
     color: white;
     text-decoration: none;
     font-weight: 700;
+    
+}
+
+.btn-primary:hover{
+    background-color: #002175;
     
 }
 
@@ -104,11 +125,21 @@ a {
     font-weight: 700;
 }
 
+.btn-secondary:hover{
+    background-color: #59d3ff;
+    
+}
+
 .btn-yellow{
     background-color: #FEC224;
     color: #00113D;
     text-decoration: none;
     font-weight: 700;
+}
+
+.btn-yellow:hover{
+    background-color: #ffd25f;
+    
 }
 
 .btn-purple{
@@ -118,11 +149,20 @@ a {
     font-weight: 700;
 }
 
+.btn-purple:hover{
+    background-color: #b800b5;
+}
+
 .btn-orange{
     background-color: #F88E1E;
     color: #00113D;
     text-decoration: none;
     font-weight: 700;
+}
+
+.btn-orange:hover{
+    background-color: #ffa94d;
+    
 }
 
 .btn-green{
@@ -132,22 +172,55 @@ a {
     font-weight: 700;
 }
 
+.btn-green:hover{
+    background-color: #a6ff4e;
+    
+}
+
 .btn-outline-bluedark{
     border-color: #00113D;
     color: #00113D;
     text-decoration: none;
     font-weight: 700;
-    border: 1px solid;
+    border: 2px solid;
     
 }
 
-.btn{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-    border-radius: 4px;
-    display: inline-block;
-    margin-right: 16px;
-    margin-top: 16px;
+.btn-outline-bluedark:hover{
+    border-color: #00113D;
+    background-color: #00113D;
+    color: #FFFFFF;
+    border: 2px solid;
+    
+}
+
+.btn-outline-white{
+    border-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid;
+    
+}
+
+.btn-outline-white:hover{
+    border-color: #ffffff;
+    color: #00113D;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid;
+    
+}
+
+
+
+.disabled{
+    opacity: 0.4;
+    cursor: default;
+}
+
+.icon{
+    padding-right: 8px;
+    font-size:16px;
 }
