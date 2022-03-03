@@ -1,9 +1,31 @@
 @font-face{
     font-family: 'Omnes';
-    src: url(../font/Omnes.ttf) ;
+    src: url(../font/Omnes\ SemiCond\ Regular.ttf) ;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
   }
+
+@font-face{
+    font-family: 'Omnes';
+    src: url(../font/Omnes\ SemiCond\ Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: 'Omnes';
+    src: url(../font/Omnes\ SemiCond\ Bold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Omnes';
+    src: url(../font/Omnes\ SemiCond\ SemiBold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
 
 body{
     font-family: 'Omnes';
@@ -19,6 +41,7 @@ body{
 }
 
 .black{
+    
     font-weight: 900;
 }
 
@@ -46,10 +69,12 @@ body{
 
 h1{
     font-size: 28px;
+    font-weight: 500;
 }
 
 h2{
     font-size: 26px;
+    
 }
 
 h3{
