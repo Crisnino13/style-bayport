@@ -1,0 +1,83 @@
+@font-face{
+    font-family: 'Omnes';
+    src: url(../font/Omnes.ttf) ;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+body{
+    font-family: 'Omnes';
+    
+   
+    
+}
+
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black{
+    font-weight: 900;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.semibold{
+    font-weight: 700;
+}
+
+.regular{
+    font-weight: 500;
+}
+
+.display-1{
+    font-size: 80px;
+}
+
+.display-2{
+    font-size: 46px;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+.legal{
+    font-size: 12px;
+}
+
+.color-secondary{
+    color: #00AEEF;
+}
+
+.color-primary{
+    color: #00113D;
+}
+
+a {
+    color: #00AEEF;
+}
