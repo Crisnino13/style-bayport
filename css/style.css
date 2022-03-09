@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 
 @font-face{
@@ -45,6 +46,46 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+.container-l{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.wraper{
+    flex-wrap: wrap;
+    display: flex;
+    
+    
+}
+
+@media (min-width: 700px){
+    .wraper{
+        flex-wrap: wrap;
+        display: flex;
+        height: 95vh;
+    }
+}
+
+.col-6{
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+@media (min-width: 700px) {
+    .col-6 {
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+  }
+
 
 .black{
     
@@ -138,7 +179,7 @@ p .p{
 
 a {
     color: #0053BA;
-    font-size: 18px;
+    
 }
 
 .btn{
@@ -291,8 +332,42 @@ label{
     font-family: 'Omnes';
     font-size: 16px;
     
+    
 }
 
+.form-login{
+    
+    
+    width: 100%;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-bottom: 40px;
+    display: block;
+    margin: auto;
+    background-color: #ffffff;
+    
+    
+}
+
+@media (min-width: 700px) {
+    .form-login {
+        max-width: 400px;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin-bottom: 40px;
+        display: block;
+        margin: auto;
+        background-color: #ffffff;
+    }
+  }
 
 
 .formulario{
@@ -411,3 +486,69 @@ button,
     display: inline-block;
     width: 50%;
 }
+
+
+.banner{
+    
+    padding-right: 16px; 
+    padding-left: 16px;
+    padding-top: 20px;
+    
+}
+
+@media (min-width: 700px) {
+    .banner {
+        padding-right: 32px; 
+    }
+  }
+
+.tyc{
+    border: 1px solid;
+    padding: 16px;
+    border-color: #e2e2e2;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.nube{
+    
+    position: absolute;
+    top: 40%;
+    left:-10%;
+    z-index: -100;
+    
+    
+    
+}
+
+
+
+
+.bayport{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    z-index: -10;
+    width: 150px;
+}
+
+@media (min-width: 700px) {
+    .bayport {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        z-index: -10;
+        width: 300px;
+        
+        
+    }
+  }
+
+
+
+.derechos{
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
